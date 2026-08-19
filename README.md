@@ -66,10 +66,10 @@ The visual design uses a dark/light theme, strong typography, subtle animations,
 ## Project Links
 
 **Live Website:**
-[https://outpost-home.netlify.app/]
+https://outpost-home.netlify.app/
 
 **GitHub Repository:**
-[https://github.com/VaaniBhardwaj/outpost-home]
+https://github.com/VaaniBhardwaj/outpost-home
 
 ## Submission
 
