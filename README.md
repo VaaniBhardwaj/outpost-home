@@ -1,48 +1,76 @@
 # Outpost — Premium Home Page
 
-Single-file static site (`index.html`, no build step) built for the
-Acdyon Technologies frontend challenge, Part 2.
+A premium, responsive landing page created for the **Acdyon Technologies Frontend Challenge — Part 2**.
 
-## What's here
-- `index.html` — the whole site (HTML + CSS + JS, no dependencies except
-  Google Fonts, loaded via `<link>`).
-- `DECISIONS.md` — the 1-page written explanation the assessment asks for.
+Outpost is an invented uptime and error-monitoring product designed for teams that do not have a dedicated on-call rotation. The page focuses on a clean, premium visual style while keeping the product messaging honest and avoiding fabricated testimonials, customer counts, or company logos.
 
-## Run it locally
-Just open `index.html` in a browser. No server, no build step.
+## Project Overview
 
-## Deploy it (pick one — all free, all under 2 minutes)
+Outpost helps teams know when something goes wrong with their website or application before their users report it.
 
-### Option A — Netlify Drop (fastest, no account juggling)
-1. Go to https://app.netlify.com/drop
-2. Drag the whole `outpost` folder onto the page.
-3. Copy the live URL it gives you.
+The landing page includes:
 
-### Option B — GitHub Pages (gives you the repo link too, in one step)
-1. Create a new repo on GitHub, e.g. `outpost-home`.
-2. From this folder:
-   ```
-   git add -A
-   git commit -m "Outpost home page"
-   git branch -M main
-   git remote add origin https://github.com/<your-username>/outpost-home.git
-   git push -u origin main
-   ```
-3. In the repo: Settings → Pages → Source: "Deploy from a branch" → Branch:
-   `main`, folder `/ (root)` → Save.
-4. Your live URL will be `https://<your-username>.github.io/outpost-home/`
-   (takes ~1 minute to go live).
+* Responsive design for desktop and mobile
+* Dark and light theme toggle
+* Animated pulse-line visual in the hero section
+* Product dashboard mockup
+* Feature section
+* "How it works" section
+* Call-to-action section
+* Demo timer showing how long the page has been open
+* Scroll-reveal animations
+* Konami-code easter egg
+* No fabricated testimonials, user numbers, or logos
 
-### Option C — Vercel
-1. Go to https://vercel.com/new, import the GitHub repo from Option B
-   (or drag-and-drop the folder if using the Vercel CLI: `vercel deploy`).
-2. No build command needed — it's static HTML.
+## Technologies Used
 
-## Before you submit
-- Open `index.html` and actually read it — the follow-up call grades
-  whether you can defend every decision without "the AI suggested it."
-- Fill in section 3 of `DECISIONS.md` honestly (see the comment inside it).
-- Test at 390px and 1440px widths, and toggle dark/light mode, before
-  you submit the link.
-- Try the Konami code (↑ ↑ ↓ ↓ ← → ← → b a) on the live page for the
-  bonus easter egg — harmless if you skip it, no points either way.
+* HTML5
+* CSS3
+* Vanilla JavaScript
+* SVG
+* Google Fonts
+
+The project uses a single `index.html` file containing the HTML, CSS, and JavaScript. No framework or build tool is required.
+
+## Project Structure
+
+```text
+Outpost/
+├── index.html
+├── DECISIONS.md
+└── README.md
+```
+
+### `index.html`
+
+Contains the complete website, including the structure, styling, animations, theme switching, and interactive features.
+
+### `DECISIONS.md`
+
+Contains the written explanation of the design and technical decisions made for the project, including the use of AI during development.
+
+## Running the Project Locally
+
+No installation or build process is required.
+
+Simply open `index.html` in a web browser.
+
+## Design Approach
+
+The project intentionally uses a lightweight vanilla HTML, CSS, and JavaScript approach instead of a framework-based stack.
+
+This keeps the page simple to deploy and avoids unnecessary dependencies for a single landing page.
+
+The visual design uses a dark/light theme, strong typography, subtle animations, and a monitoring-inspired pulse-line motif to create a premium technology-product feel.
+
+## Project Links
+
+**Live Website:**
+[ADD YOUR LIVE WEBSITE LINK HERE]
+
+**GitHub Repository:**
+[ADD YOUR GITHUB REPOSITORY LINK HERE]
+
+## Submission
+
+This project was created as part of the **Acdyon Technologies Frontend Challenge — Part 2**.
